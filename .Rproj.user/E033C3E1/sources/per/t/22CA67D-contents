@@ -1,0 +1,46 @@
+
+library(openssl)
+finfo = file.info("/home/gian/Projects/t2_seguranca/video_03.mp4")
+toread= file("/home/gian/Projects/t2_seguranca/video_03.mp4", "rb")
+alldata = readBin(toread, "raw", size=1, n = finfo$size, endian="little")
+
+length(alldata)
+chunk_size <- 1
+chunk <- c(alldata[1])
+chunk_list <- c()
+chunk_index <- 1
+
+for (byte in alldata) {
+  if (chunk_size %% 1024 == 0) {
+    block <- paste0(chunk ,collapse = "")
+    chunk_list <- c(chunk_list, block)
+  }
+  chunk <- c(chunk, byte)
+  chunk_size <- chunk_size + 1
+}
+
+
+p <- 5
+q <- 7
+mod <- p*q
+# relativamente primos a mod1 = 1,5,7,11,13,19,23
+mod1 <- (p-1)*(q-1)
+e <- 5
+#achar inverso de gcd
+d = e^1
+
+
+#
+n <- 727
+2^n %% 727
+
+
+# troca de chave
+p <- 7 # grande numero primo
+g <- 3 # gerador de p
+a <- 2
+b <- 5
+
+A <- g^a %% p
+B <- g^b %% p
+# chave igual A^B %% p

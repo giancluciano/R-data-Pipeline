@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1558485762800.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1673460369",
+    "id" : "22CA67D",
+    "lastKnownWriteTime" : 1559179515,
+    "last_content_update" : 1559179515904,
+    "path" : "~/Projects/t2_seguranca/script.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "9,10",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

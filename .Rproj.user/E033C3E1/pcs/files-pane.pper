@@ -1,0 +1,9 @@
+{
+    "path" : "~/Projects/PipeAndCrud/man",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

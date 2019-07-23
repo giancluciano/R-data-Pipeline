@@ -1,0 +1,129 @@
+* using log directory ‘/home/gian/Projects/PipeAndCrud/..Rcheck’
+* using R version 3.4.2 (2017-09-28)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--as-cran’
+* checking for file ‘./DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘PipeAndCrud’ version ‘0.1.0’
+* package encoding: UTF-8
+* checking CRAN incoming feasibility ... NOTE
+Maintainer: ‘The package maintainer <yourself@somewhere.net>’
+
+New submission
+
+Non-FOSS package license (What license is it under?)
+
+The build time stamp is missing.
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... NOTE
+Found the following hidden files and directories:
+  .travis.yml
+  ..Rcheck
+  .Rproj.user
+These were most likely included in error. See section ‘Package
+structure’ in the ‘Writing R Extensions’ manual.
+
+CRAN-pack does not know about
+  .travis.yml
+  ..Rcheck
+* checking for portable file names ... NOTE
+Found the following non-portable file paths:
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/DiagrammeR-styles-0.2/styles.css
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/grViz-binding-1.0.1/DiagrammeR.js
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/grViz-binding-1.0.1/DiagrammeR.yaml
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/grViz-binding-1.0.1/grViz.js
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/grViz-binding-1.0.1/grViz.yaml
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/grViz-binding-1.0.1/lib/chromatography/LICENSE
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/grViz-binding-1.0.1/lib/chromatography/chromatography.js
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/grViz-binding-1.0.1/lib/d3/LICENSE
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/grViz-binding-1.0.1/lib/d3/d3.min.js
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/grViz-binding-1.0.1/lib/dagre-d3/LICENSE
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/grViz-binding-1.0.1/lib/dagre-d3/dagre-d3.min.js
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/grViz-binding-1.0.1/lib/mermaid/LICENSE
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/grViz-binding-1.0.1/lib/mermaid/dist/mermaid.css
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/grViz-binding-1.0.1/lib/mermaid/dist/mermaid.slim.min.js
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/grViz-binding-1.0.1/lib/styles/styles.css
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/grViz-binding-1.0.1/lib/viz/viz.js
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/htmlwidgets-1.2/htmlwidgets.js
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/grViz-binding-1.0.1/lib/chromatography
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/grViz-binding-1.0.1/lib/dagre-d3
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/grViz-binding-1.0.1/lib/mermaid
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/grViz-binding-1.0.1/lib/mermaid/dist
+  PipeAndCrud/.Rproj.user/E033C3E1/viewer_history/viewhtml22a21dfd569c/lib/grViz-binding-1.0.1/lib/styles
+
+Tarballs are only required to store paths of up to 100 bytes and cannot
+store those of more than 256 bytes, with restrictions including to 100
+bytes for the final component.
+See section ‘Package structure’ in the ‘Writing R Extensions’ manual.
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘PipeAndCrud’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... WARNING
+Non-standard license specification:
+  What license is it under?
+Standardizable: FALSE
+Checking should be performed on sources prepared by ‘R CMD build’.
+Package listed in more than one of Depends, Imports, Suggests, Enhances:
+  ‘DiagrammeR’
+A package should be listed in only one of these fields.
+* checking top-level files ... NOTE
+Non-standard files/directories found at top level:
+  ‘PipeAndCrud.Rproj’ ‘codecov.yml’ ‘database’
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... WARNING
+Found the following directory with the name of a check directory:
+  ./..Rcheck
+Most likely, these were included erroneously.
+* checking R files for non-ASCII characters ... WARNING
+Found the following files with non-ASCII characters:
+  plot_diagram.R
+  read.R
+  save.R
+Portable packages must use only ASCII characters in their R code,
+except perhaps in comments.
+Use \uxxxx escapes for other characters.
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking use of S3 registration ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  ‘init_database’ ‘plot_diagram’ ‘read’ ‘read_nodes’ ‘save_dataset’
+All user-level objects in a package should have documentation entries.
+See chapter ‘Writing R documentation files’ in the ‘Writing R
+Extensions’ manual.
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... OK
+* checking for unstated dependencies in ‘tests’ ... OK
+* checking tests ... OK
+  Running ‘testthat.R’
+* checking PDF version of manual ... WARNING
+LaTeX errors when creating PDF version.
+This typically indicates Rd problems.
+* checking PDF version of manual without hyperrefs or index ... ERROR
+Re-running with no redirection of stdout/stderr.
+* DONE
+Status: 1 ERROR, 5 WARNINGs, 4 NOTEs

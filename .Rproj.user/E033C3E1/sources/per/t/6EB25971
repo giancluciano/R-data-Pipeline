@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556424726737.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "915620467",
+    "id" : "6EB25971",
+    "lastKnownWriteTime" : 1559605260,
+    "last_content_update" : 1559605260864,
+    "path" : "~/Projects/PipeAndCrud/tests/testthat/test_save.R",
+    "project_path" : "tests/testthat/test_save.R",
+    "properties" : {
+        "cursorPosition" : "11,40",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
